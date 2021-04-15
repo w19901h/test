@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration scan="true" scanPeriod="60 seconds" debug="false">
     <contextName>logback</contextName>
-    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+   <!-- <include resource="org/springframework/boot/logging/logback/base.xml"/>
     <springProperty scope="context" name="logLevel" source="log.level"/>
-    <springProperty scope="context" name="logPath" source="log.path"/>
+    <springProperty scope="context" name="logPath" source="log.path"/>-->
     <!-- 注意这里一定要放到springProfile里, 否则在你本机执行的时候还是会去找相应的文件 -->
     <appender name="fileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${logPath}/flow.log</file>
