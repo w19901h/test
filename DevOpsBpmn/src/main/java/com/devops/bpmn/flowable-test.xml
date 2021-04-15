@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:flowable="http://flowable.org/bpmn"
+             xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+             xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI"
+             typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath"
+             targetNamespace="http://www.flowable.org/processdef">
+    <process id="flowable-test" name="flowable-test" isExecutable="true">
+        <endEvent id="EndEvent_1" name="End Event 1"/>
+        <startEvent id="StartEvent_1" name="Start Event 1"/>
+    </process>
+    <bpmndi:BPMNDiagram id="BPMNDiagram_flowable-test">
+        <bpmndi:BPMNPlane bpmnElement="flowable-test" id="BPMNPlane_flowable-test">
+            <bpmndi:BPMNShape bpmnElement="StartEvent_1">
+                <omgdc:Bounds height="48.0" width="48.0" x="180.0" y="199.0"/>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNShape bpmnElement="EndEvent_1">
+                <omgdc:Bounds height="48.0" width="48.0" x="698.0" y="188.0"/>
+            </bpmndi:BPMNShape>
+        </bpmndi:BPMNPlane>
+    </bpmndi:BPMNDiagram>
+</definitions>

@@ -1,0 +1,7 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: workflow   #必须用这个名称，方便和官方jar包集成
+  banner:
+    location: classpath:/org/flowable/spring/boot/flowable-banner.txt
